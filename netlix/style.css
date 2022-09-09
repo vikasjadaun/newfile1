@@ -1,0 +1,39 @@
+body{
+  background-color: black;
+}
+.header-logo{
+  height: 25px;
+}
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+}
+.flex-container-section1-heading{
+  color: white;
+}
+.flex-container-profile{
+  width: 80%;
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+  /* background-color: red; */
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+.individual-profile-images{
+  height: 192px;
+}
+.individual-profile-name{
+  color: white;
+}
+.flex-container-section2-button{
+  background-color: black;
+  color: white;
+  padding:15px ;
+  border: 1px solid white;
+  font-size: 16px;
+}
